@@ -6,6 +6,7 @@ function LineaSeparador(){
         <img src={linea} alt="linea" className="h-28" />
         </>
     );
+    //Probando cambio de rama
 
 }
 export default LineaSeparador;
