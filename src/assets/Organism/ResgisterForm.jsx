@@ -24,7 +24,7 @@ function RegisterForm() {
             <FormRegister/>
             <p className="text-gray-600 text-sm">
             <Link to={'/login'}>
-              <p className="text-blue-500 mt-10 text-center text-sm hover:text-blue-700">
+              <p className="text-blue-500 mt-10 text-center text-sm hover:text-blue-700 ">
               ¿Ya estás registrado?, Iniciar sesión
               </p>
                 </Link>
