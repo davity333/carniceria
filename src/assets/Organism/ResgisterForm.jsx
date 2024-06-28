@@ -1,6 +1,5 @@
 import Logo from "/logoCarnitas.png";
 import FormRegister from "../Molecules/Register.jsx/FormRegister";
-import Button from "../Atoms/Register/Button";
 import { Link } from "react-router-dom";
 function RegisterForm() {
   return (
@@ -24,7 +23,7 @@ function RegisterForm() {
             <FormRegister/>
             <p className="text-gray-600 text-sm">
             <Link to={'/login'}>
-              <p className="text-blue-500 mt-10 text-center text-sm hover:text-blue-700 ">
+              <p className="text-blue-500 mt-10 text-center text-sm hover:text-blue-700 p-4">
               ¿Ya estás registrado?, Iniciar sesión
               </p>
                 </Link>
