@@ -13,9 +13,12 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-helmet-async": "^2.0.5",
-    "react-router-dom": "^6.24.0"
+    "react-router-dom": "^6.24.0",
+    "styled-components": "^6.1.11"
   },
   "devDependencies": {
+    "@iconify/json": "^2.2.223",
+    "@iconify/tailwind": "^1.1.1",
     "@types/react": "^18.2.66",
     "@types/react-dom": "^18.2.22",
     "@vitejs/plugin-react": "^4.2.1",
