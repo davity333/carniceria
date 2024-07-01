@@ -17,7 +17,6 @@ function LoginForm() {
               Inicia sesión
             </h2>
           </div>
-  
           <div className="mt-10 sm:mx-auto sm:w-full sm:max-w-sm">
             <Form />
             <p className="mt-10 text-center text-sm text-gray-500">
