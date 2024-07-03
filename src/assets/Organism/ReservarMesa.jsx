@@ -1,35 +1,27 @@
-import Logo from "/logoCarnitas.png";
-import Form from './Form';
-
+import Logo from "/chair.png";
+import Form from "../Molecules/reservarMesas/Form";
+import Title from "../Atoms/reservarMesas/Title";
 function ReservarMesaForm() {
   return (
     <>
-      <section className="bg-#5C0000 h-screen">
+      
         <div className="flex min-h-full flex-1 flex-col justify-center px-6 py-12 lg:px-8">
           <div className="sm:mx-auto sm:w-full sm:max-w-sm">
             <img
-              className="mx-auto h-1/3 w-auto rounded-s-full"
+              className="mx-auto h-1/3 w-auto "
               src={Logo}
               alt="Carnitas Noyola"
             />
-            <h2 className="mt-10 text-center text-2xl font-bold leading-9 tracking-tight text-white">
-              Inicia sesión
-            </h2>
+            <Title text={"Hola reserva una mesa"}></Title>
           </div>
   
-          <div className="mt-10 sm:mx-auto sm:w-full sm:max-w-sm">
+          <div className="mt-10 sm:mx-auto sm:w-full sm:max-w-sm w-1/2">
             <Form />
-            <p className="mt-10 text-center text-sm text-gray-500">
-              Not a member?{' '}
-              <a href="#" className="font-semibold leading-6 text-indigo-600 hover:text-indigo-500">
-                Start a 14 day free trial
-              </a>
-            </p>
           </div>
         </div>
-      </section>
+  
     </>
   );
 }
 
-export default LoginForm;
+export default ReservarMesaForm;
