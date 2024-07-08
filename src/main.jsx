@@ -4,12 +4,11 @@ import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
 import './index.css'
 import ReservarMesas from './Pages/ReservarMesas.jsx'
-
+import AddProduct from './Pages/AddProduct.jsx'
 import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
-import EjemploFechaHora from './Pages/EjemploFechaHora.jsx'
 
 const router = createBrowserRouter([
   {
@@ -21,9 +20,9 @@ const router = createBrowserRouter([
     element: <ReservarMesas></ReservarMesas>
   },
   {
-    path: "/ej",
-    element: <EjemploFechaHora></EjemploFechaHora>
-  }
+    path: "/addProduct",
+    element: <AddProduct></AddProduct>
+  },
 
 ]);
 ReactDOM.createRoot(document.getElementById("root")).render(

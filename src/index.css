@@ -1,8 +1,7 @@
 body {
   margin: 0;
   background-color: #5C0000;
-  font-family: "Open Sans", sans-serif;
-  font-weight: 500;
+  font-family: "Amatic SC"", sans-serif;
 }
 
 @tailwind base;

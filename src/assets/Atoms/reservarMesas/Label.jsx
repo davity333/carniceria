@@ -1,6 +1,6 @@
-function Label({ htmlFor, children }) {
+function Label({ htmlFor, children, size }) {
     return (
-      <label htmlFor={htmlFor} className="block text-sm font-medium leading-6 text-white">
+      <label htmlFor={htmlFor} className="font-bold block text-sm leading-6 text-black">
         {children}
       </label>
     );

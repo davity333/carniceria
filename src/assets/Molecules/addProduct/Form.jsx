@@ -5,45 +5,45 @@ function Form() {
   return (
     <form className="space-y-4">
       <FormField
-        id="name"
-        name="name"
+        id="type"
+        name="type"
         type="text"
-        placeholder="ej. Jesús"
+        placeholder="ej. Carne de lomo"
         autoComplete="text"
         required={true}
-        label="Nombre del solicitante"
+        label="Tipo de carne"
       />
       <FormField
-        id="noPeople"
-        name="noPeople"
+        id="price"
+        name="price"
         type="text"
         placeholder="ej. 6"
         autoComplete="current-text"
         required={true}
-        label="Número de personas"
+        label="Precio"
       />
       <FormField
-        id="date"
-        name="date"
-        type="datetime-local"
-        placeholder=""
-        autoComplete="s"
+        id="stock"
+        name="stock"
+        type="text"
+        placeholder="ej. 7 (kg)"
+        autoComplete="current-text"
         required={true}
-        label="Hora"
+        label="Stock del producto"
       />
          <FormField
-        id="amount"
-        name="amount"
-        type="number"
-        placeholder="ej. 6"
-        autoComplete="number-current"
+        id="picture"
+        name="picture"
+        type="file"
+        placeholder=""
+        autoComplete=""
         required={true}
-        label="Cantidad de mesas"
+        label="Subir foto"
       />
       
       <div>
-        <Button type="submit" onClick={() =>toast.success('Mesa agregada correctamente')
- } children={"Reservar mesa"}></Button>
+        <Button type="submit" onClick={() =>toast.success('Producto agregado correctamente')
+ } children={"Agregar producto"}></Button>
         <Toaster></Toaster>
       </div>
     </form>
